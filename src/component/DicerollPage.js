@@ -19,16 +19,6 @@ import DiceImage6 from "../images/Dice6.png";
 
 function Diceroll() {
 
-
-  
-  Storage.prototype.setObj = function(key, value) {
-      this.setItem(key, JSON.stringify(value));
-  }
-  
-  Storage.prototype.getObj = function(key) {
-      var value = this.getItem(key);
-      return value && JSON.parse(value);
-  }
   var diceImages = [
     DiceImage1,
     DiceImage2,

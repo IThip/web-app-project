@@ -1,5 +1,13 @@
+html {
+  background-color: #282c34;
+  color: white
+}
+
 .App {
   text-align: center;
+  background-color: #282c34;
+  color: white;
+
 }
 
 .App-logo {
@@ -21,7 +29,8 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white;  
+
 }
 
 .App-link {
@@ -36,3 +45,21 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  text-align: center;
+  padding: 2 rem 2rem;
+  margin: 1 rem;
+  height: auto;
+  width: auto;
+}
+
+.square {
+  height: 400px;
+  width: 400px;
+  background-color: beige;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1rem 1rem;
+}
+
